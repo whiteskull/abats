@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0;}
+html { height: 100%; }
+img { border: none;}
+body {
+	background-color: #707070;	
+	font-family: "Trebuchet MS", Verdana,Arial, sans-serif;
+	font-size: 14px;
+    color: #444;
+}
+a {
+    color: #00F;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+	margin: 10px 0 18px;
+}

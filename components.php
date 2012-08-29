@@ -1,0 +1,1 @@
+<?	$abats->addComponent('viewBanner', 'standart:feature.list', array(                'TITLE' => 'Crazy Runner',        'DATE' => date('Y-m-d')        ));        $abats->addComponent('mainMenu', 'standart:menu.lavalamp', array(        'SOURCE' => 'top.menu'    ));

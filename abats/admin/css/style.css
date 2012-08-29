@@ -1,0 +1,250 @@
+* { margin: 0; padding: 0;}
+html { height: 100%; }
+img { border: none;}
+body {
+	background-color: #dadada;	
+	font-family: "Trebuchet MS", Arial, Verdana, sans-serif;
+	font-size: 14px;
+    color: #444;
+    height: 100%;
+    overflow: hidden;
+}
+a {
+    color: #00F;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+	margin: 10px 0;
+}
+
+
+#top {
+    height: 30px;
+    width: 100%;
+    background: #333;
+}
+
+#logo {
+    padding-top: 2px;
+    padding-left: 30px;
+}
+
+#left {
+    font-family: Georgia, "Trebuchet MS", Verdana, Arial, sans-serif;
+    float: left;
+    background: #dadada url(../img/left_top_bg.png) repeat-x;
+    width: 180px;
+    overflow: auto; 
+}
+
+#left-content {
+    padding-top: 15px;
+}
+
+#navigation-tree-pages {
+    float: left;
+    background: #dadada url(../img/tree_top_bg.png) repeat-x;
+    width: 250px;
+    overflow: auto; 
+}
+
+#tree-pages-content {
+    padding-top: 20px;
+}
+
+#navigation-infoblocks {
+    float: left;
+    background: #dadada url(../img/tree_top_bg.png) repeat-x;
+    width: 250px;
+    overflow: auto; 
+}
+
+.left-hide-show {
+    float: left;
+    margin-left: 1px;
+    background: #fcffc9;
+    width: 7px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    cursor: pointer;
+}
+
+.sub-left-resize {
+    float: left;
+    margin-left: 1px;
+    background: #fcffc9;
+    width: 7px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    cursor: e-resize;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.hide {
+    background: url(../img/hide.png) no-repeat;
+    width: 7px;
+    height: 5px;
+}
+
+.sub-left-resize .hide {
+    background: #333 url(../img/hide_light.png) no-repeat 0 50px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.show {
+    background: url(../img/show.png) no-repeat;
+    width: 7px;
+    height: 5px;
+}
+
+.sub-left-resize .show {
+    background: #333 url(../img/show_light.png) no-repeat 0 50px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#content {
+    background: #999;
+    overflow: auto; 
+}
+
+/* Left Menu begin */
+
+.menu-title {
+    padding-left: 22px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    height: 25px;
+    line-height: 24px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.hide-menu {
+    background: #fcffc9 url(../img/show_menu.png) no-repeat 10px 6px;
+}
+
+.show-menu {
+    background: #fcffc9 url(../img/hide_menu.png) no-repeat 10px 6px;
+}
+
+.menu-sub {
+    padding-bottom: 5px;
+}
+
+.menu-sub li {
+    list-style: none;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right:  15px;
+    font-weight: normal;
+    margin-bottom: 3px;
+    border: 1px solid transparent;
+    height: 22px;
+    line-height: 22px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.menu-sub li img {
+    padding-right: 5px;
+}
+
+.menu-sub-hover {
+    background: #ff0;
+    border: 1px solid #333 !important;
+    cursor: pointer;
+}
+
+.menu-sub-selected {
+    background: #d4fffe;
+    border: 1px solid #333 !important;
+    cursor: pointer;
+}
+/* Left Menu end */
+
+/* Tree Pages begin */
+
+#tree-pages-content img {
+    padding-right: 4px;
+}
+
+.tree-pages-children {
+    background: url(../img/line_vertical.png) repeat-y 8px;
+}
+
+#tree-pages-content a {
+    color: #333;
+}
+
+#tree-pages-content a:hover {
+    text-decoration: none;
+}
+/* Tree Pages begin */
+
+/* Edit Selected Page begin */
+
+#content-page {
+    padding: 15px;
+}
+
+/* Edit Selected Page end */
+
+/* Content Menu begin */
+
+.content-menu {
+    height: 30px;
+    line-height: 29px;
+    width: 100%;
+    background-color: #fcffc9;
+}
+
+.content-menu ul {
+    padding-left: 15px;
+}
+
+.content-menu li {
+    background: #fff;
+    padding: 0 5px;
+    display: inline;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.content-menu li:hover {
+    background: #ff0;
+}
+
+.content-menu-selected {
+    background: #D4FFFE !important;    
+}
+
+/* Content Menu begin */
+
+/* Content Title begin */
+
+.content-menu-title {
+    height: 18px;
+    width: 100%;
+    background-color: #666;
+    color: #ddd;
+    font-size: 12px;
+}
+
+.content-menu-title p {
+    margin: 0;
+    padding:  0 15px;
+    font-weight: bold;
+}
+/* Content Title end */

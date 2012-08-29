@@ -1,0 +1,1 @@
+Whitegames is very small studio.
